@@ -12,4 +12,89 @@ body{
     text-align: center;
     margin: 0;
 }
+ h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+ }
 
+ @media (max-width: 460px){
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+ }
+
+ h2 {
+    font-size: 3.20rem;
+ }
+
+ a {
+    color: yellow;
+    text-decoration: none;
+
+    
+ }
+ a:hover {
+    color: rgb(79, 168, 146);
+ }
+
+ #main {
+    margin: 20px 8px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #3d4449;
+ }
+ 
+ @media (max-width: 560px){
+    #main {
+        margin: 0;
+    }
+ }
+
+ img {
+    
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+ }
+
+ #img-div {
+    background-color: #384149;
+    padding: 11px;
+    margin: 0;
+ }
+
+ #img-caption {
+    padding: 9px;
+    margin: 15px 0 5px 0;
+ }
+
+ @media (max-width: 560px){
+    #img-caption {
+        font-size: 1.4rem;
+    }
+ }
+
+ #headline {
+    margin: 50px 0;
+    text-align: center;
+ }
+
+ ul {
+    max-width: 553px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.8;
+    list-style-type: square;
+ }
+
+ li {
+    margin: 15px 0;
+ }
+
+ blockquote {
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+ }
